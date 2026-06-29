@@ -21,7 +21,6 @@ jobs:
         with:
           command: github-release
           release-type: simple
-          skip-github-release: true
           target-branch: ${{ github.ref_name }}
           
       - name: Define build properties
