@@ -1,5 +1,37 @@
 # Changelog
 
+## [6.0.0](https://github.com/jmadhur87/fortify-client-api/compare/v6.2.0...v6.0.0) (2026-10-27)
+
+
+### Features
+
+* FoD: Add methods to get instance name and server ZoneId ([e4671dc](https://github.com/jmadhur87/fortify-client-api/commit/e4671dc85c5e19a50a2cbc038473328f797c5456))
+* JSONDateTimeFormatter: Configurable default ZoneId ([8f0a7df](https://github.com/jmadhur87/fortify-client-api/commit/8f0a7df8666c8eb93089168d8f1d74ae648d6869))
+* Migrate from OSSRH to Maven Central Publishing API ([#28](https://github.com/jmadhur87/fortify-client-api/issues/28)) ([f21962a](https://github.com/jmadhur87/fortify-client-api/commit/f21962a0576515d46ba957c57ec46894e51769ca))
+* Move artifacts to OSSRH/Maven Central ([7538137](https://github.com/jmadhur87/fortify-client-api/commit/7538137b6a947587777feb1a03f0c98a7c3b7808))
+
+
+### Bug Fixes
+
+* Bugtracker-related fixes ([4381f86](https://github.com/jmadhur87/fortify-client-api/commit/4381f86b7566511bec8b649b7d0eaa2835f2ee71))
+* Improve JSON date parsing (fixes [#12](https://github.com/jmadhur87/fortify-client-api/issues/12)) ([a47038d](https://github.com/jmadhur87/fortify-client-api/commit/a47038dc1a4bb1c1a4801b6028928353644d7e22))
+* Properly handle blank values ([e480e92](https://github.com/jmadhur87/fortify-client-api/commit/e480e9271f0645424e0c183e217a2ebf962a2527))
+* Republish due to incomplete Maven Central deployment ([9fece84](https://github.com/jmadhur87/fortify-client-api/commit/9fece8444742674cfdbd2dd0c7d81ba37d029467))
+* SSC: Handle API responses that do not include a count field ([95459e5](https://github.com/jmadhur87/fortify-client-api/commit/95459e5848af0cab5f95618b0b2c6ede48cb2b4b))
+* Update (potentially vulnerable) dependency versions ([7ac5358](https://github.com/jmadhur87/fortify-client-api/commit/7ac53582b76e2052e437bbbf36d2f3ac36fc7905))
+* Update (potentially vulnerable) dependency versions ([3af3ad9](https://github.com/jmadhur87/fortify-client-api/commit/3af3ad9b641bd26db0d1da96efa4f4c8b164f82e))
+* Update (potentially vulnerable) dependency versions ([94a4141](https://github.com/jmadhur87/fortify-client-api/commit/94a4141e23c1daa37d2f46d977314b750bbde5bb))
+* Update (potentially vulnerable) dependency versions ([8743c1e](https://github.com/jmadhur87/fortify-client-api/commit/8743c1eb95ad2edc843620a7053958a84d9dd8ab))
+* Update (potentially vulnerable) dependency versions ([e1da540](https://github.com/jmadhur87/fortify-client-api/commit/e1da5408e42c3f53357e466fc0d4608fe309405c))
+* Update dependencies ([8a5e6b4](https://github.com/jmadhur87/fortify-client-api/commit/8a5e6b4c6dc361150f83dbeae8f1089d318ce3c3))
+* Update dependency versions ([3dde69f](https://github.com/jmadhur87/fortify-client-api/commit/3dde69fca6b6f62855a6fb24d82c7eaeb1822fe9))
+* Update dependency versions & gradle wrapper ([15b74c9](https://github.com/jmadhur87/fortify-client-api/commit/15b74c93f59238ea790a50603b208b9c505423f9))
+
+
+### Performance Improvements
+
+* Pre-load additional entities ([4381f86](https://github.com/jmadhur87/fortify-client-api/commit/4381f86b7566511bec8b649b7d0eaa2835f2ee71))
+
 ## [6.2.0](https://www.github.com/fortify/fortify-client-api/compare/v6.1.8...v6.2.0) (2026-01-28)
 
 
